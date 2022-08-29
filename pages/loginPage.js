@@ -13,7 +13,7 @@ function LoginPage() {
                 <Link href='/login'><li>LogIn with Email</li></Link>
                 <Link href='/loginPhone'><li>LogIn with Phone Number</li></Link>
                 <Link href='signup'><li>Sign Up</li></Link>
-                <Link href='/ruh'><li>Ruh</li></Link>
+                {/* <Link href='/ruh'><li>Ruh</li></Link> */}
             </ul>
           </nav>
         </div>

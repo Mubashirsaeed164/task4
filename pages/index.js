@@ -7,7 +7,7 @@ export default function Home() {
   return (    
     <>
     <LoginPage/>
-    <Ruh/>
+    {/* <Ruh/> */}
     {/* <div className="container">
       <div className='header'>
         <h1>Welcome</h1>
