@@ -1,0 +1,233 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.container {
+  height: 900px;
+  width: 1000px;
+  /* background-color: #573b8a; */
+  margin: 0 auto;
+  box-shadow: 5px 20px 50px #000;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #161238, #302b63, #373766);
+
+}
+.header {
+  height: 100px;
+  width: 1000px;
+  text-align: center;
+  margin-top: 70px;
+  position: absolute;
+}
+.header h1 {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 1;
+}
+
+.main {
+  position: absolute;
+  /* height: 150px; */
+  width: 300px;
+  margin-top: 350px;
+  margin-left: 10px;
+}
+.main nav ul {
+  list-style: none;
+  margin-left: -350px;
+  margin-top: 330px;
+}
+.main nav ul li {
+  height: 10px;
+  width: 200px;
+  font-size: large;
+  font-weight: 800;
+  color: white;
+  background-color:#4a3472 ;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #7b62a8;
+  margin-top: 20px;
+}
+li:hover{
+  background-color: #7b62a8;
+}
+.image {
+  width: 500px;
+  height: 350px;
+  float: right;
+  margin-top: 350px;
+  margin-right: 50px;
+}
+.image img {
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+/* @-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} */
+.content {
+  height: 50px;
+  width: 500px;
+  color: white;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+.content h1 {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 1;
+}
+
+/* navigation  start*/
+.nav-bar {
+  height: 100px;
+  width: 700px;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 150px;
+}
+.nav-bar nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.nav-bar nav ul li {
+  height: 10px;
+  width: 200px;
+  font-size: large;
+  font-weight: 800;
+  color: white;
+  margin: 10px 30px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #573b8a;
+}
+li:hover{
+  background-color: #6d44b8;
+}
+/* navigation End */
+
+label{
+  width: 1000px;
+  position: absolute;
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+  margin-top: 60px;
+}
+.search {
+  position: absolute;
+  width: 1000px;
+  margin-top: 300px;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.phone-id {
+  width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+button{
+	width: 60%;
+	height: 40px;
+	margin: 0 auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #6d44b8;
+}
+.forgot {
+  /* margin: top -5px; */
+  text-align:right;
+  margin-right: 190px;
+  color: white;
+}
+p {
+  color: red;
+  margin-left: 200px;
+}
+
+.footer {
+  height: 20px;
+  width: 500px;
+  text-align: center;
+  color: #FFFFFF;
+  justify-content: center;
+  margin: 0 auto;
+}
+a {
+  color: #FFFFFF;
+}
+.verify-otp {
+  /* background-color: green; */
+  width: 50%;
+  margin-top: 500px;
+  margin-left: 40px;
+  position: absolute;
+}
+.box{
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  margin-left: 80px;
+  margin-top: 30px;
+  /* background-color: green; */
+  color: white;
+}
